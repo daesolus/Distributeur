@@ -219,6 +219,7 @@ public class CommandeController extends HttpServlet {
 						jsonTime.put("time",time.toString());
 						listBouteille.put(jsonTime);
 						jsonCommande.put("recette", listBouteille);
+						System.out.println(jsonCommande.toString());
 						envoyerCommande(jsonCommande.toString());
 					}					
 				}

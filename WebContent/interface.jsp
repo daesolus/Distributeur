@@ -53,7 +53,7 @@
 			    				<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
-					    					<input type="hidden" name="hidQte" class="hidQte" value="2" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="1" >
 					    					<img  src="${pageContext.request.contextPath}/img/shoot1oz.jpg">
 				    					</a>
 									     <div class="caption">
@@ -75,7 +75,7 @@
 							   <div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
-					    					<input type="hidden" name="hidQte" class="hidQte" value="4" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="5" >
 					    					<img  src="${pageContext.request.contextPath}/img/vino.jpg">
 				    					</a>
 									     <div class="caption">
@@ -90,7 +90,7 @@
 						   		<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
-					    					<input type="hidden" name="hidQte" class="hidQte" value="4" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="12" >
 					    					<img  src="${pageContext.request.contextPath}/img/verre12oz.png">
 				    					</a>
 									     <div class="caption">
@@ -101,7 +101,7 @@
 						   		<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
-					    					<input type="hidden" name="hidQte" class="hidQte" value="4" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="16" >
 					    					<img  src="${pageContext.request.contextPath}/img/redcup_16.jpg">
 				    					</a>
 									     <div class="caption">
@@ -112,7 +112,7 @@
 						   		<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
-					    					<input type="hidden" name="hidQte" class="hidQte" value="6" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="20" >
 					    					<img   src="${pageContext.request.contextPath}/img/bock.jpg">
 				    					</a>
 									     <div class="caption">
