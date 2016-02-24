@@ -49,15 +49,26 @@
 				    	<input type="hidden" name="hidCommande" id="hidCommande" value="" >
 			    		<div id="choixVerre" style="display:none">
 			    			<a id="btnRetourCommande" class="btn btnGlyphicon"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
-			    			<div class="row" id="headerImg">
+			    			<div class="row">
 			    				<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
 					    					<input type="hidden" name="hidQte" class="hidQte" value="2" >
-					    					<img  src="${pageContext.request.contextPath}/img/redcup_10.jpg">
+					    					<img  src="${pageContext.request.contextPath}/img/shoot1oz.jpg">
 				    					</a>
 									     <div class="caption">
-									       <h4>Verre 2oz</h4>
+									       <h4>Shoot 1oz</h4>
+									    </div>
+								   </div>
+							   </div>
+			    				<div class="col-xs-6 col-md-4">
+				    				<div class="thumbnail">
+					    				<a class="btnChoixQuantite" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="2" >
+					    					<img  src="${pageContext.request.contextPath}/img/shoot2oz.jpg">
+				    					</a>
+									     <div class="caption">
+									       <h4>Shoot 2oz</h4>
 									    </div>
 								   </div>
 							   </div>
@@ -65,26 +76,53 @@
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
 					    					<input type="hidden" name="hidQte" class="hidQte" value="4" >
+					    					<img  src="${pageContext.request.contextPath}/img/vino.jpg">
+				    					</a>
+									     <div class="caption">
+									       <h4>Vino 5oz</h4>
+									    </div>
+								   </div>
+							   </div>
+							   
+							   
+						  <!--   </div>
+						   <div class="row">-->
+						   		<div class="col-xs-6 col-md-4">
+				    				<div class="thumbnail">
+					    				<a class="btnChoixQuantite" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="4" >
+					    					<img  src="${pageContext.request.contextPath}/img/verre12oz.png">
+				    					</a>
+									     <div class="caption">
+									       <h4>Verre 12oz</h4>
+									    </div>
+								   </div>
+							   </div>
+						   		<div class="col-xs-6 col-md-4">
+				    				<div class="thumbnail">
+					    				<a class="btnChoixQuantite" >
+					    					<input type="hidden" name="hidQte" class="hidQte" value="4" >
 					    					<img  src="${pageContext.request.contextPath}/img/redcup_16.jpg">
 				    					</a>
 									     <div class="caption">
-									       <h4>Pinte 4oz</h4>
+									       <h4>Pinte 16oz</h4>
 									    </div>
 								   </div>
 							   </div>
-							   <div class="col-xs-6 col-md-4">
+						   		<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
 					    					<input type="hidden" name="hidQte" class="hidQte" value="6" >
-					    					<img   src="${pageContext.request.contextPath}/img/redcup.jpg">
+					    					<img   src="${pageContext.request.contextPath}/img/bock.jpg">
 				    					</a>
 									     <div class="caption">
-									       <h4>Pinte impériale 6oz</h4>
+									       <h4>Pinte impériale 20oz</h4>
 									    </div>
 								   </div>
 							   </div>
+						   		
 						   </div>
-						   <input type="submit" class="form-control btn btn-primary" style="height:75px" id="submitCommande"value="Commander" >
+						   <input type="submit" class="form-control btn btn-primary" style="height:75px;margin-bottom:10px" id="submitCommande"value="Commander" >
 						   <input type="hidden" name="hidQuantite" id="hidQuantite" value="" >
 						   <input type="hidden" name="action" value="commander">
 			    		</div>

@@ -58,6 +58,7 @@
 		    <div class="alert alert-danger errorTxt" style="display:none;margin-top:20px" role="alert">
 		    </div>
 		    <input type="submit" class="btn btn-primary" name="submit" value="Enregistrer">
+		    <a id="btnAnnuler" class="btn btn-primary" href="${pageContext.request.contextPath}/recette?action=liste" >Annuler</a>
         </form>
     </jsp:body>
 </t:layout>

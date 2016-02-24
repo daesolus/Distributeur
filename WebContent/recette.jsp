@@ -50,8 +50,8 @@
 		    		</tbody>
 		    	</table>
 		    	<input type="submit" class="btn btn-primary" name="btnAjoutRecette" id="btnAjoutRecette" value="Ajouter">
-		    	<div class="alert alert-danger errorTxt" style="display:none;margin-top:20px" role="alert">
-		    	</div>
+		    	<a id="btnAnnuler" class="btn btn-primary" href="${pageContext.request.contextPath}/recette?action=liste" >Annuler</a>
+		    	<div class="alert alert-danger errorTxt" style="display:none;margin-top:20px" role="alert"></div>		    	
 	    	</form>
     	</c:when>
     	<c:otherwise>
