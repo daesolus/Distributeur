@@ -39,7 +39,13 @@
 					    				</c:choose>
 				    					</a>
 									     <div class="caption">
-									       <h4>${recette.nom}</h4>
+									       <h4>
+									       		${recette.nom}									       		
+									       </h4>
+									       <a class="recetteDetail btn btnGlyphicon">
+					    						<span style="color:black" class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+											</a>
+											<input type="hidden" name="hidIdRecette" class="hidIdRecette" value="${recette.id}">
 									    </div>
 								   </div>
 							   </div>
@@ -83,10 +89,6 @@
 									    </div>
 								   </div>
 							   </div>
-							   
-							   
-						  <!--   </div>
-						   <div class="row">-->
 						   		<div class="col-xs-6 col-md-4">
 				    				<div class="thumbnail">
 					    				<a class="btnChoixQuantite" >
@@ -95,6 +97,7 @@
 				    					</a>
 									     <div class="caption">
 									       <h4>Verre 12oz</h4>
+									       
 									    </div>
 								   </div>
 							   </div>

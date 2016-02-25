@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
 	
 	$("#btnAffichage").click(function () {
 		$("#changeInterface").submit();
@@ -159,7 +159,7 @@ $(document).ready(function () {
         $("#ajoutBouteille").submit();
    });
 	
-	$(".recetteRow .recetteDetail").click(function(){
+	$(".recetteDetail").click(function(){
 		var idBenevole = $(this.nextElementSibling).val();
 		$.ajax({
             url: 'commande',

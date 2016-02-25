@@ -180,7 +180,7 @@ public class CommandeController extends HttpServlet {
 		
 		double liquideUse;
 		double proportion;
-		if(errorMessage.equals("")) {
+		if(!errorMessage.equals("")) {
 			try{		
 				JSONObject jsonCommande = new JSONObject();
 				if(listeRequestRecette != null )	{
